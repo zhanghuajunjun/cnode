@@ -1,12 +1,10 @@
-
 <template>
- <div class="container">
-
+ <div>
+   
  </div>
 </template>
 
 <script>
- 
  export default {
    name: '',
    props: {
@@ -36,7 +34,5 @@
 </script>
 
 <style scoped lang='scss'>
-.container {
-  background: #e1e1e1;
-}
+
 </style>
