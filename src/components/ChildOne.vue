@@ -12,7 +12,7 @@
       <div v-for="(item,index) in arr" :key="index">
         <div v-if="index < 39">
           <div class="hp-item">
-            <img :src="item.author.avatar_url" alt width="30" />
+            <img :src="item.author.avatar_url" alt width="30"/>
             <div class="hp-item1">
               <span class="hp-item2">{{item.reply_count}}</span>
               <span class="hp-item3">/{{item.visit_count}}</span>
