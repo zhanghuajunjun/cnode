@@ -40,7 +40,7 @@
    },
    methods: {
      ClickSign(){
-       
+       this.$router.push('/sign')
      }
    },
    mounted() {

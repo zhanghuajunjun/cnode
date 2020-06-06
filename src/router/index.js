@@ -23,10 +23,10 @@ Vue.use(VueRouter)
       {
         path: '',
         name: 'Home',
-        component: Home
+        component: Home,
       },
       {
-        path: '/sign',
+        path: 'sign',
         name: 'Sign',
         component: () => import('../views/sign/Sign')
       },

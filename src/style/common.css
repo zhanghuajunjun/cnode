@@ -111,6 +111,12 @@
 .marg-ris {
     margin-right: 10px;
 }
+.marg-tbs {
+    margin: 10px 0;
+}
+.marg-lrs {
+    margin: 0 10px;
+}
 .head {
     padding: 3px 20px;
     margin-left: -20px;
@@ -132,4 +138,8 @@
 }
 .hover:hover {
     cursor: pointer;
+}
+.hover1:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
